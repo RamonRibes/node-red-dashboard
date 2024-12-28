@@ -5,16 +5,13 @@
 #include <DHT_U.h>
 #include <ArduinoJson.h>
 
-#define SSID "TP-LINK_F5D8C4"
-#define PASSWORD "HNEXF7MU4M"
+#define SSID "xxx"
+#define PASSWORD "xxx"
 #define MQTT_SERVER "192.168.0.20"
-// #define SSID "MotoG(6)Play"
-// #define PASSWORD "182b2f5b7e79"
-// #define MQTT_SERVER "www.ribes.cat"
 #define MQTT_PORT 1883
 #define MQTT_CLIENT_ID "ESP32Client-DHT22"
-#define MQTT_USER "ESP32_Client"
-#define MQTT_PASSWORD "ESP32_Password"
+#define MQTT_USER "xxx"
+#define MQTT_PASSWORD "xxx"
 char mqtt_out_topic_values[] = "ESP32/Values";
 char mqtt_out_topic_status[] = "ESP32/Status";
 char mqtt_out_topic_messages[] = "ESP32/Messages";
